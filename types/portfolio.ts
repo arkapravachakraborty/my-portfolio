@@ -3,7 +3,7 @@ export interface ProjectItem {
     description: string;
     tags: string[];
     liveLink?: string;
-    codeLink?: string;
+    codeLink: string;
 }
 
 export interface ExperienceItem {
